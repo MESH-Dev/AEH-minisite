@@ -1,0 +1,83 @@
+/* Defaults */
+#red .agenda-entry h3,#blue .agenda-entry h3, #teal .agenda-entry h3, #grey .agenda-entry h3{color:#717174;}
+
+/* Intro */
+#red #intro .bg, #red .agenda-day-bar{background:#f05135;}
+	 #red .jumpsection.grey h2.panel-title, #red .jumpsection.grey h2.section_title, #red #intro h2, #red #intro h3,  #red #conf-details span, #red .agenda-entry.workshop h3, #red .agenda .panel-title{color: #f05135;}
+	#red #intro:after{border-color: #f05135 transparent transparent transparent;}
+.red{}
+
+
+#blue #intro .bg, #blue .agenda-day-bar{background:#0397d6;}
+	#blue .jumpsection.grey h2.panel-title, #blue .jumpsection.grey h2.section_title,#blue #intro h2, #blue #intro h3, #blue #conf-details span, #blue .agenda-entry.workshop h3, #blue .agenda .panel-title{color:#0397d6;}
+	#blue #intro:after{border-color: #0397d6 transparent transparent transparent;}
+.blue{}
+
+
+#teal #intro .bg, #teal .agenda-day-bar{background:#28bdb3;}
+	#teal .jumpsection.grey h2.panel-title, #teal .jumpsection.grey h2.section_title, #teal #intro h2, #teal #intro h3, #teal #conf-details span, #teal .agenda-entry.workshop h3, #teal .agenda .panel-title{color:#28bdb3;}
+	#teal #intro:after{border-color: #28bdb3 transparent transparent transparent;}
+.teal{}
+
+
+#grey #intro .bg, #grey .agenda-day-bar{background:#565656;}
+	#grey .jumpsection.grey h2.panel-title, #grey .jumpsection.grey h2.section_title, #grey #intro a, #grey #intro h2, #grey #intro h3, #grey #conf-details span, #grey .agenda-entry.workshop h3, #grey .agenda .panel-title{color:#f05135;}
+	#grey #intro:after{border-color: #565656 transparent transparent transparent;}
+.grey{}
+
+#blue #intro a, #teal #intro a, #red #intro a{color:#fff}
+
+
+/* Panels */
+.jumpsection.red,
+	.jumpsection.red a,
+	.jumpsection.red h2,
+	.jumpsection.red h3,
+	.jumpsection.red h4,
+	.jumpsection.red h5,
+	.jumpsection.red h6{color:#fff;}
+
+.jumpsection.teal,
+	.jumpsection.teal a,
+	.jumpsection.teal h2,
+	.jumpsection.teal h3,
+	.jumpsection.teal h4,
+	.jumpsection.teal h5,
+	.jumpsection.teal h6{color:#fff;}
+
+
+.jumpsection.blue,
+	.jumpsection.blue a,
+	.jumpsection.blue h2,
+	.jumpsection.blue h3,
+	.jumpsection.blue h4,
+	.jumpsection.blue h5,
+	.jumpsection.blue h6{color:#fff;}
+
+
+.jumpsection.grey,
+	.jumpsection.grey a,
+	.jumpsection.grey h2,
+	.jumpsection.grey h3,
+	.jumpsection.grey h4,
+	.jumpsection.grey h5,
+	.jumpsection.grey h6{color:#717174;}
+
+.agenda-event-content, .timeloc, .trackdesc, .loc{color:#717174 !important;}
+
+
+#intro a, .jumpsection a{text-decoration:underline;font-style:italic;}
+section.agenda a{font-style:normal !important;}
+ul.content-filter li{color:#717174;}
+
+/* Overrides */
+
+#footer h1, #footer h2, #footer h3, #footer h4{color:#fff;text-transform:uppercase;}
+#footer a{color:#adadad;}
+
+#wpadminbar a{color:#ccc;}
+
+#red #intro-right .data a, #blue #intro-right .data a, #teal #intro-right .data a, #grey #intro-right .data a{color:#fff;}
+
+.print-agenda > a{color:#111 !important;}
+.agenda-event-content a{color:#111 !important;}

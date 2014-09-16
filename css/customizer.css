@@ -1,0 +1,7 @@
+#colorSwatch{border: 1px solid #CCCCCC;float: left;height: 27px;width: 27px;}
+	#colorSwatch.red{background:#F05135;}
+	#colorSwatch.blue{background:#0397D6;}
+	#colorSwatch.teal{background:#28BDB3;}
+	#colorSwatch.grey{background:#565656;}
+
+#accordion-section-static_front_page, #customize-control-header_textcolor{display:none !important;}

@@ -1,0 +1,16 @@
+/*
+Theme Name: Conference Minisite
+Theme URI: http://meshfresh.com
+Author: MESH Design and Development
+Author URI: http://meshfresh.com
+Description: Color coordinated conference minisite theme for America's Essential Hospitals. Built, with love, by MESH.
+Version: 0.1
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Cabin:400,600,700');
+@import url(css/reset.css);
+@import url(css/typography.css);
+@import url(css/color.css);
+@import url(css/layout.css);
+
+#intro a, .jumpsection a{text-decoration:underline; font-style:normal; }

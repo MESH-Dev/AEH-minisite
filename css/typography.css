@@ -1,0 +1,19 @@
+h1{font: 40px/42px 'Cabin',sans-serif;font-weight: bold;margin:0 0 14px 0;}
+h2{font: 32px/33px 'Cabin',sans-serif;font-weight: bold;margin:0 0 14px 0;}
+h3{font: 18px/24px 'Cabin',sans-serif;font-weight: bold;}
+h4{font-size: 13px;text-transform: uppercase;word-spacing: -0.055em;margin:0 0 8px 0;font-family:'Cabin',sans-serif;font-weight:bold;text-transform:uppercase;}
+h5{font-size: 12px;text-transform: uppercase;word-spacing: -0.055em;margin:0 0 8px 0;font-family:'Cabin',sans-serif;font-weight:bold;text-transform:uppercase;}
+h6{font-size: 11px;text-transform: uppercase;word-spacing: -0.055em;margin:0 0 8px 0;font-family:'Cabin',sans-serif;font-weight:bold;text-transform:uppercase;}
+
+p{margin:0 0 1.5em 0;word-spacing: -0.025em;}
+strong{font-family:'Cabin',sans-serif;font-weight:bold;font-style:normal; font-size: 18px;}
+.intro strong{font-size: 32px; font-weight:bold;line-height: 40px; }
+
+a{text-decoration:none;}
+a:hover{text-decoration:underline; opacity: 0.8 }
+
+em{font-style:italic;}
+strong{font-weight:bold;}
+
+h2.panel-title {text-transform: uppercase;margin: 0 0 40px 0;}
+h2.section_title {font-size: 18px; line-height: 36px;   border-bottom: 1px solid #c9c9c9}
