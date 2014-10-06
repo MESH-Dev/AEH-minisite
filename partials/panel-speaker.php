@@ -4,7 +4,10 @@
 			<div class="gutter">
 				<h2 class="panel-title"><?php echo $section['section_title']; ?></h2>
 				<?php $speakers = $section['speakers'];
-					foreach($speakers as $speaker){ ?>
+					$i = 0;
+					echo "<div class='speaker-row clearfix'>";
+					foreach($speakers as $speaker){
+					if($i%2==0 && $i!=0){echo "</div><div class='speaker-row clearfix'>";} ?>
 					<div class="one-half floatleft speaker-entry">
 						<div class="speaker-portrait one-fourth floatleft">
 							<img src="<?php echo $speaker['portrait']; ?>"/>
@@ -17,7 +20,8 @@
 							</div>
 						</div>
 					</div>
-				<?php } ?>
+				<?php $i++; }
+				echo "</div>"; ?>
 			</div>
 		</div>
 	</div>

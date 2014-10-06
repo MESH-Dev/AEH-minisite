@@ -257,3 +257,4 @@ header#header,footer,section#intro,div.jumpsection,div#footer{min-width:1120px;}
 #print .content-filter{display:none;}
 #print .workshop-cont{background:none;}
 #print.agenda .container > .gutter{padding:20px 0 0;}
+.speaker-row{display:block;}
